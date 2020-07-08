@@ -1,5 +1,5 @@
 {
-  "name": "bulma",
+  "name": "@wagich/bulma",
   "version": "0.9.1",
   "homepage": "https://bulma.io",
   "author": {
@@ -13,8 +13,11 @@
   "style": "bulma/css/bulma.min.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgthms/bulma.git"
+    "url": "git+https://github.com/wagich/bulma.git"
   },
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
   "license": "MIT",
   "keywords": [
     "css",
